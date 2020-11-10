@@ -1,0 +1,32 @@
+{
+  "name": "react-native-pulldown",
+  "version": "0.0.1",
+  "description": "react native pulldown component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingziqi/reac-native-pulldown.git"
+  },
+  "keywords": [
+    "react-native",
+    "pulldown",
+    "refresh"
+  ],
+  "author": "dingziqi <dingziqi_xtu@sina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dingziqi/reac-native-pulldown/issues"
+  },
+  "homepage": "https://github.com/dingziqi/reac-native-pulldown#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-native": "^0.63.3"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.2"
+  }
+}
