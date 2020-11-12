@@ -7,7 +7,6 @@ import {
   Platform,
   UIManager,
   PanResponder,
-  Text,
   ActivityIndicator,
   ScrollView,
   SectionList,
@@ -140,13 +139,12 @@ PullDown.defaultProps = {
   onRefreshThreshold: 0.6,
   onRefresh: () => {},
   renderRefresher: (pullRate) => (
-    <ActivityIndicator animating={pullRate >= 1} style={s.indicator} />
+    <ActivityIndicator color="#000" animating={pullRate >= 1} style={s.indicator}/>
   ),
 };
 
 const s = StyleSheet.create({
   container: {
-    position: "relative",
     flex: 1,
   },
   header: {
@@ -157,6 +155,7 @@ const s = StyleSheet.create({
   },
   indicator: {
     marginTop: 10,
+    alignSelf: 'center',
   },
 });
 
